@@ -1,0 +1,1 @@
+cmd_/home/dpdk-kmods/linux/igb_uio/igb_uio.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/dpdk-kmods/linux/igb_uio/igb_uio.ko /home/dpdk-kmods/linux/igb_uio/igb_uio.o /home/dpdk-kmods/linux/igb_uio/igb_uio.mod.o
