@@ -30,9 +30,10 @@ export RTE_SDK=/home/dpdk/dpdk-stable-21.11.2 && export PKG_CONFIG_PATH=/usr/loc
 ```
 pip3 install meson ninja
 yum install -y numactl numactl-devel
-https://github.com/DPDK/dpdk.git
+git clone https://github.com/DPDK/dpdk.git
 cd dpdk
-git checkout 20.11
+git fetch origin v20.11
+git checkout v20.11
 meson build
 cd build
 ninja
