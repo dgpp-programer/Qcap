@@ -42,7 +42,7 @@ ninja install
 ### 3.3、检查是否安装成功：
 ```
 pkg-config --modversion libdpdk
-20.11.3
+20.11.0
 ```
 ### 3.4、加载驱动(2选1)
 #### 3.4.1、vfio
